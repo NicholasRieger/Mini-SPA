@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    min-height: 100vh;
+    /* fallback universal */
+    min-height: 100svh;
+    /* Safari/iOS: viewport “pequena” estável */
+    min-height: 100dvh;
+    /* modernos: viewport dinâmica (ajusta com barra) */
+    overflow-x: hidden;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+
+div.container{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(60, 60, 125, 0.563);
+}
+
+.container h1{
+    text-align: center;
+}
+
+.container a{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.container a:hover{
+    background-color: rgba(77, 77, 131, 0.563);
+}
